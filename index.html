@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoApp</title>
+    <link rel="stylesheet" href="./styles/css/main.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class="add-task">
+            <button class="btn-create">+</button>
+            <input type="text" class="new-task" placeholder="New task..." />
+        </div>
+        <div class="todo-container">
+
+            <div class="todo-list">
+
+                <div class="todo-list__tasks">
+
+                    <!-- <div class="todo-list__task">
+                        <input type="checkbox" id="task-1" />
+                        <label for="task-1">
+                            <span class="custom-checkbox"></span>
+                            cos tam
+                        </label>
+                    </div> -->
+
+                </div>
+            </div>
+
+            <div class="todo-list__summary">
+                <p class="tasks-left">0 tasks left</p>
+                <div class="filter">
+                    <button class="btn all">All</button>
+                    <button class="btn active">Active</button>
+                    <button class="btn completed">Completed</button>
+                </div>
+                <button class="btn clear">Clear completed tasks</button>
+            </div>
+        </div>
+
+        <div class="delete-list">
+            <button class="btn delete-list">Delete list</button>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+
+</html>
